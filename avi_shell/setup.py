@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 import os
 
 # added avi pip version
-AVI_PIP_VERSION = '16.1'
+AVI_PIP_VERSION = '16.2'
 if os.path.isfile('pip_version.txt'):
    with open('./pip_version.txt', 'r') as fd:
       AVI_PIP_VERSION = fd.read()
@@ -24,7 +24,7 @@ setup(name='avi_shell',
     packages=find_packages(),
     include_package_data = True,
     classifiers=[
-        'Development Status :: 4 - Beta',
+        'Development Status :: 5 - Beta',
         'Intended Audience :: Customers',
         'Topic :: Software Development :: Build Tools',
         'License :: OSI Approved :: MIT License',
@@ -41,7 +41,8 @@ setup(name='avi_shell',
         'virtualenv==13.1.2',
         'wheel==0.26.0',
         'wrapt==1.10.6',
-        'commentjson'
+        'commentjson',
+        'awscli'
     ]
 
 )

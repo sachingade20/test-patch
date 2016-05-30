@@ -33,6 +33,7 @@ CLI Client for AVI ADC:
 
 The `--address` option is necessary here because we are connecting shell client to any of our remote controllers.
 
+New Version Commands
 
 ## License
 The MIT License (MIT)
