@@ -39,7 +39,7 @@ setup(name='avi_shell',
         'requests-toolbelt==0.5.1',
         'urllib3==1.14',
         'virtualenv==13.1.2',
-        'wheel==0.26.0',
+        'wheel==0.38.1',
         'wrapt==1.10.6',
         'commentjson'
     ]
